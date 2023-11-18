@@ -28,7 +28,6 @@ const Missions = () => {
               <th className="cell-col"> Mission </th>
               <th className="cell-col"> Description </th>
               <th className="cell-col"> Status </th>
-              <th className="cell-col"> </th>
             </tr>
           </>
         </thead>
