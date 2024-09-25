@@ -10,6 +10,7 @@ const Rockets = () => {
     if (rockets.length === 0) {
       dispatch(fetchRockets());
     }
+    
   }, [dispatch, rockets.length]);
   const handleReserve = (id) => {
     dispatch(reserve(id));
